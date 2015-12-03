@@ -22,13 +22,10 @@ Graphana front end is used for displaying the graphs. This connects to the Influ
 ##Influx DB
 Influx DB is updated from our application every 5 minutes. The DB is available on cloud and can be monitored by accessing the https://gigawatt-mcfly-77.c.influxdb.com:8083/
 
+## Additional Features
 
+1. When the system utilization reaches its maximum value, then a message alert is sent to the user. 
 
+2. Custom metrics are also monitored, Individual HTTP count on each instance is counted and reported to the mongolab and displayed as a seperate metric (Amazon Custom Monitoring) . Individual memory utilization is also monitored on each instance and displayed on the graph
 
-
-
-
-
-
-
-
+3. Mobile app is also provided to monitor the metrics for user's convenience.
