@@ -27,7 +27,7 @@ Influx DB is updated from our application every 5 minutes. The DB is available o
 
 ## Additional Features
 
-1. When the system utilization reaches its maximum value, then a message alert is sent to the user. 
+1. When the system utilization reaches its maximum value,a message alert is sent to the user. 
 
 2. Custom metrics are also monitored, Individual HTTP count on each instance is counted and reported to the mongolab and displayed as a seperate metric (Amazon Custom Monitoring) . Individual memory utilization is also monitored on each instance and displayed on the graph
 
