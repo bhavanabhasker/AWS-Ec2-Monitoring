@@ -1,14 +1,17 @@
 #Amazon EC2 Monitoring 
 
 ##Objective: 
-The purpose of the project is to monitor the amazon EC2 instances using its API. 
+This application is used to monitor EC2 instances on AWS.We monitor Ec2 metrics such as disk read/write, memory utilization and HTTP count. 
+
+##Architecture:
+![Architecture Diagram](./arch.png)
 
 ##Installation and Execution:
 ###1.	Running the program from eclipse: 
-Download all the java files into your workspace 
-Download all the dependencies (Twilio and Mongo)
-Install AWS SDK for JAVA from the link (https://aws.amazon.com/sdk-for-java/) 
-Execute the program
+1. Download all the java files into your workspace 
+2. Download all the dependencies (Twilio and Mongo)
+3. Install AWS SDK for JAVA from the link (https://aws.amazon.com/sdk-for-java/) 
+4. Execute the program
 
 ###2.	Running the program from command prompt 
 Download the jar
